@@ -6,5 +6,5 @@ finally , use reflect to use res.
 #实现方法
 <http://blog.csdn.net/ta893115871/article/details/46955791>
 #效果图
-<img src="./jar.gif"/>
+<img src="./demo.gif"/>
  
