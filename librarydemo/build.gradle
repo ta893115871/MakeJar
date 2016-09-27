@@ -1,4 +1,3 @@
-
 apply plugin: 'com.android.library'
 
 android {
@@ -31,9 +30,11 @@ task makeJar(type: Copy) {
     from('build/intermediates/bundles/release/')
     into('build/libs/')
     include('classes.jar')
-    rename ('classes.jar', 'myjar.jar')
+    rename('classes.jar', 'myjar.jar')
 }
-
+//  在终端执行生成JAR包
+//  ./gradlew build
+//build.finalizedBy makeJar
+//  或者
 makeJar.dependsOn(build)
-//在终端执行生成JAR包
 // ./gradlew makeJar
