@@ -9,4 +9,10 @@ gradle-2.14.1-all.zip
 <http://blog.csdn.net/ta893115871/article/details/46955791>
 # 效果图
 <img src="./demo.gif"/>
- 
+
+# 注意
+建议gradle版本为
+
+``` java
+distributionUrl=https\://services.gradle.org/distributions/gradle-2.14.1-all.zip
+```
